@@ -23,6 +23,6 @@ WORKDIR /app
 
 VOLUME [ "/opt/storage" ]
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD ./run.sh
