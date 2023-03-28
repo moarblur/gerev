@@ -2,7 +2,7 @@ services:
   gerev:
     image: gerev:latest
     ports:
-      - 80:80
+      - 8080:8080
     volumes:
       - ~/.gerev/storage:/opt/storage
     build: .
