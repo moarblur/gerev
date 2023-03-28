@@ -72,7 +72,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: ${{ env.PUSH == 'true' }}
           tags: |
-            gerev/gerev:${{ env.VERSION }}
-            gerev/gerev:latest
+            moarblur/gerev:${{ env.VERSION }}
+            moarblur/gerev:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
